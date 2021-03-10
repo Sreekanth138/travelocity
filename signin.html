@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="signin.css"
+    <link rel="stylesheet" type="text/css" href="signin.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <div id="signmain_div">
@@ -41,11 +42,11 @@
                     <p>Sign Up with Facebook</p>
                 </button>
                 <div class="list1">
-                    <ul>
-                        <li>We keep it private</li>
-                        <li>Share only with permission</li>
-                        <li>Quick sign in-no passwords</li>
-                    </ul>
+                        <p>
+                            <i class="fas fa-key"></i>  We keep it private</br>
+                            <i class="fas fa-shield-alt"></i>  Share only with permission</br>
+                            <i class="far fa-dot-circle"></i>  Quick sign in-no passwords
+                        </p>
                 </div>
             </div>
 
@@ -56,10 +57,10 @@
                  <form id="form1">
                     <div id="signin-username">
                         Email or User Name *</br>
-                        <input type="text">
+                        <input type="text" id="signin-username-signin">
                     </div>
                     <div id="signin-password">
-                        Password *</br><input type="password">
+                        Password *</br><input type="password" id="signin-password-signin">
                     </div>
                     <div id="forgot">
                         <a href="#"><p>Forgot your password?</p></a> 
@@ -70,11 +71,12 @@
                     </div>
                         
                     <div id="signin-button">
-                        <button>Sign In</button>
+                        <button id="signin-button-signin" type="submit">Sign In</button>
                     </div>
                 </form>
             </div> 
         </div>
     </div>
 </body>
+<script src="signin.js"></script>
 </html>
