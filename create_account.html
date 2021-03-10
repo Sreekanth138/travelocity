@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="create_account.css"
+    <link rel="stylesheet" type="text/css" href="create_account.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
     <div id="camain_div">
@@ -41,11 +43,11 @@
                     <p>Sign Up with Facebook</p>
                 </button>
                 <div class="list">
-                    <ul>
-                        <li>We keep it private</li>
-                        <li>Share only with permission</li>
-                        <li>Quick sign in-no passwords</li>
-                    </ul>
+                    <p>
+                        <i class="fas fa-key"></i>  We keep it private</br>
+                        <i class="fas fa-shield-alt"></i>  Share only with permission</br>
+                        <i class="far fa-dot-circle"></i>  Quick sign in-no passwords
+                    </p>
                 </div>
             </div>
 
@@ -53,7 +55,7 @@
                 <div class="caform-p">
                     <p>Or,Create an account with your Email</p>
                 </div>
-                 <form id="form">
+                 <form id="form" onsubmit="CreateAccount()">
                     <div id="firstName">
                         Given/First Name</br>
                         <input type="text">
@@ -62,13 +64,13 @@
                         Surname/Last Name</br><input type="text">
                     </div>
                      <div id="email">
-                        Email Address</br><input type="email">
+                        Email Address</br><input type="email" id="caemail">
                     </div>
                      <div id="password">
-                        Password</br><input type="password">
+                        Password</br><input type="password" id="capassword">
                     </div>
                      <div id="conpassword">
-                        Confirm Password</br><input type="password">
+                        Confirm Password</br><input type="password" id="caconpassword">
                     </div> 
                     <div id="check-box">
                         <input type="checkbox" id="firstp">
@@ -80,11 +82,12 @@
                     </div>
                         
                     <div id="submit-button">
-                        <button>Create Account</button>
+                        <button id="cabutton" type="submit">Create Account</button>
                     </div>
                 </form>
             </div> 
         </div>
     </div>
 </body>
+<script src="create_account.js"></script>
 </html>
