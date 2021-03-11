@@ -1,8 +1,12 @@
+/*create account page top bar CSS and
+ Create account page form CSS
+ */
 #camain_div {
   width: 100%;
   height: 800px;
   background-color: #d4d1d188;
 }
+
 #toplist {
   height: 50px;
   width: 100%;
