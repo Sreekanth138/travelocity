@@ -2,17 +2,24 @@
 <html>
 
 <head>
+    <title>Travelocity</title>
     <link rel="stylesheet" href="css.css">
+    <script src="javascript.js"></script>
 
-    <style >
+    <!--        CSS FIle Link And JS File Of Navbar   -->
+    <link rel="stylesheet" href="navbar.css">
+    <script src="NavBar.js"></script>
+
+    <style>
+
     </style>
 </head>
 
 <body>
-    
+     
     <nav class="navbar">
         <a href="#" class="navLogo">
-            <img src="logo.svg" />
+            <img src="https://i.ibb.co/c8Jzh7C/logo.png" />
         </a>
         <div class="navDropdown">
             <button onclick="moreTravel()" class="navDropbtn">More Travel &nbsp; &or; </button>
@@ -112,8 +119,207 @@
 
 
     </nav>
+    <section>
+        <div class="home_page_bcg">
+
+            <div class="bcg_white">
+
+                <div class="sub_cont">
+                    <div class="hotels line_hover" onclick="show('hotels_all');">
+                        <img src="https://i.ibb.co/DRn7d61/hotel.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Hotels</p>
+                        <p id="paraline1" style="display: none;"></p>
+                    </div>
+
+                    <div class="flights line_hover" onclick="show('flights_all');">
+                        <img src="https://i.ibb.co/K5JhtLw/flight.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Flight</p>
+                        <p id="paraline2" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="cars line_hover" onclick="show('cars_all');">
+                        <img src="https://i.ibb.co/J21mBV6/car.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Cars</p>
+                        <p id="paraline3" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="packages line_hover" onclick="show('packages_all');">
+                        <img src="https://i.ibb.co/BCvCM3W/package.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para " >Package</p>
+                        <p id="paraline4" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="things_to_do line_hover" onclick="show('things_to_do_all');">
+                        <img src="https://i.ibb.co/wWm0HBb/to-do.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">To Do</p>
+                        <p id="paraline5" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="cruises line_hover" onclick="show('cruises_all');">
+                        <img src="https://i.ibb.co/KmnS6v4/cruises.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Cruise</p>
+                        <p id="paraline6" style="display: none;"></p>
+
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div id="hotels_all">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+
+
+                <div id="flights_all" style="display: none;">
+                    <button class="btn1">Leaving From</button>
+
+                    <input class="btn2" placeholder="Departing" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Returning" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">Going To</button>
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a Place to Stay</label>
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+
+                <div id="cars_all" style="display: none;">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+                <div id="packages_all" style="display: none;">
+                    <button class="btn1">Leaving From</button>
+                    <input class="btn2" placeholder="Departing" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Returning" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">Going To</button>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">I only need accommodations for part of my trip</label>
+
+                    <button class="search">Search</button><br>
+
+
+                </div>
+                <div id="things_to_do_all" style="display: none;">
+                    <button class="btn1">Things To Go</button>
+                    <input class="btn2" placeholder="From" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="To" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+
+                </div>
+                <div id="cruises_all" style="display: none;">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+
+
+      
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
-<script src="javascript.js"></script>
-
+  
 </html>
