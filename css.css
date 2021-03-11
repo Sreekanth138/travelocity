@@ -1,161 +1,264 @@
-body {
-    font-family: sans-serif;
-}
-
-.navbar {
-    height: 60px;
-    background-color: #0a438b;
-    text-decoration: none;
-    padding-top: 10px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-
-    /* display: grid;
-    grid-template: "box1 box2 box3 box4 box5 box6 box7"; */
-
-}
-
-.navLogo {
-
-    margin: 30px;
-}
-
-.navA {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 16px;
-    float:right
-
-
+.home_page_bcg {
+    background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    /* width: 104%;
+    margin-left: -10px; */
+    /* margin: -1; */
 }
 
 
-
-.navDropbtn {
-    background-color: #0a438b;
-    color: white;
-    border-color: #0a438b;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    /* cursor: pointer; */
-    border: none;
-    text-decoration: none;
-
-}
-
-
-
-.navDropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.navDropdown_cont {
-    display: none;
-    position: absolute;
+.bcg_white {
+    width: 90%;
+    height: 400px;
+    /* margin: auto; */
+    margin: 5%;
     background-color: white;
-    width: 400px;
-    -webkit-box-shadow: 0 0 10px gray;
-    box-shadow: 0 0 10px gray;
     border-radius: 10px;
-    /* border:solid 1px gray; */
+    /* -webkit-box-shadow: 2px 2px 10px rgb(0, 0, 0); */
+    box-shadow: 0 0 4px rgb(255, 255, 255);
+    border-radius: 10px;
+
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template: "box1 box2 box3 box4";
+}
+
+#hotels {
+    height: 100px;
+    background-color: violet;
+    border-radius: 10px;
+    /* margin-bottom: 40px; */
 
 }
 
-.navDropdown_cont a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
 
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
 
-.navShow {
-    display: block;
-}
-
-
-
-
-
-
-.signinBtn {
-    background-color: #0a438b;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    /* cursor: pointer; */
-    border: none;
-}
-
-
-
-.Signin {
-    position: relative;
-    float: right;
-    margin-right:25px;
-
-}
-
-.Signin-content {
-    display: none;
-    position: absolute;
+    margin: 10px;
     background-color: white;
-    width: 350px;
-    -webkit-box-shadow: 0 0 10px gray;
-    box-shadow: 0 0 10px gray;
     border-radius: 10px;
-    left: auto !important;
-    right: 0 !important;
+    border: 1px solid gray;
 }
 
-.Signin-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+input:focus {
+    outline-color: #0d5ab9;
+}
+button:focus {
+    outline-color: #0d5ab9;
+}
+
+
+.btn1 {
+    height: 40px;
+    width: 30%;
+    grid-area: box1;
+    margin: 1.5%;
+
+}
+
+.btn2 {
+    height: 40px;
+    width: 17%;
+    grid-area: box2;
+    margin: 1.5%;
+}
+
+.btn3 {
+    height: 40px;
+    width: 17%;
+    grid-area: box3;
+    margin: 1.5%;
+
+}
+
+.btn4 {
+    height: 40px;
+    width: 19%;
+    grid-area: box4;
+    margin: 1.5%;
+
+}
+
+.search {
     display: block;
-
-}
-
-.go_to_signin {
-    height: 20px;
-    width: 250px;
-    background-color: #0d5ab9;
-    text-decoration: none;
+    border-radius: 10px;
+    color: white;
     margin: auto;
-    border-radius: 10px;
-    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    background-color: #0d5ab9;
+    margin-top: 20px;
 }
 
-#color_white {
-    color: white;
-    text-align: center;
-}
-
-#color_blue {
-    color: #0d5ab9;
-}
-
-.go_to_create_account {
-    text-align: center;
-}
-
-.go_to_signin:hover {
+.search:hover,
+.checkbox2:hover {
     background-color: #466ea0;
 
 }
 
-.h4_margin,
-.a_margin {
-    margin: 10px;
-    margin-left: 35px;
+.checkbox1,
+.checkbox2 {
+    /* margin-right: 10px; */
+
+    margin: 14px;
+    /* margin-top: 20px; 
+     margin-right: 10px;  */
 }
 
-.signinShow {
-    display: block;
+
+
+
+.hotels,
+.flights,
+.cars,
+.packages,
+.things_to_do,
+.cruises {
+    border: 0.2px solid rgb(147, 150, 153);
+    float: left;
+    box-shadow: 2px 2px 3px gray;
+    height: 60px;
+    width: 12%;
+    margin: 1.7%;
+    text-align: center;
+    /* margin-bottom: 50px; */
 }
 
+.sub_cont {
+    height: 95px;
+    width: 90%;
+    /* border: 2px solid forestgreen; */
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.sub_cont_imgs {
+    height: 40%;
+    width: 30%;
+    /* align-items: center; */
+
+}
+
+.sub_cont_para {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hr {
+    height: 1px;
+    width: 90%;
+    background-color: rgb(160, 160, 160);
+    margin: auto;
+}
+/* .hotels:hover{
+    border-bottom: 3px solid rgba(11, 56, 207, 0.842);
+}
+    .flights:hover{
+    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
+}
+    .cars:hover{
+    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
+}
+    .packages:hover{
+    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
+}
+    .things_to_do:hover{
+    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
+}
+    .cruises:hover{
+    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
+} */
+.line_hover:hover{
+    border-bottom:4px solid #0d5ab9;
+}
+.search_hotels_size{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+    .bcg_white {
+        grid-template: "box1"
+            "box2 box3"
+            "box4";
+        height: 450px;
+    }
+
+    .btn1 {
+
+        height: 40px;
+        width: 90%;
+        display: block;
+        /* margin-top: 100px; */
+        /* border: 2px solid blue; */
+        margin: 2% 5%;
+
+
+
+    }
+
+    .btn2 {
+        height: 40px;
+        width: 42%;
+
+
+        margin-left: 5%;
+        /* margin: 2% 4% ; */
+
+    }
+
+    .btn3 {
+        height: 40px;
+        width: 43%;
+
+        /* margin-right: 3%; */
+
+
+        /* margin: 2% 4% ; */
+
+    }
+
+    .btn4 {
+        height: 40px;
+        width: 90%;
+        margin: 2% 5%;
+
+
+    }
+
+    .sub_cont_imgs {
+        height: 40%;
+        width: 35%;
+    }
+
+    .sub_cont_para {
+        font-size: 16px;
+    }
+
+    .hotels,
+    .flights,
+    .cars,
+    .packages,
+    .things_to_do,
+    .cruises {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hr {
+        height: 1px;
+        width: 90%;
+        background-color: rgb(160, 160, 160);
+
+        margin: auto;
+    }
+
+
+
+}
