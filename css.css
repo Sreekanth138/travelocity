@@ -334,8 +334,56 @@ flex-basis: 25%;
     font-size: 1.2vw;
     font-weight: bold;
 }
-
 /* From Here the Code for Id=pooransDiv56 is Ended */
+
+         /* From Here the Code for Hotel Page is Started */
+
+ #hotelCoronaNotification{
+     width: 96%;
+     margin: 3% 2% 3% 2%;
+     border: 1px solid black;
+     height: 100px;
+     background-color: #505c66;
+     border-radius: 10px;
+     display: flex;
+ }     
+ #hotelCoronaNotificationDiv1{
+     flex-basis: 5%;
+ }
+ #hotelCoronaNotificationDiv2{
+     flex-basis: 95%;
+ }
+ #alertsvg{
+    height: 30%;
+    width: 40%;
+    margin: 55% 0% 0% 25%;
+    fill: white;
+ }
+ #hotelCoronaNotificationDiv2para{
+     color: white;
+     font-size: 1.3vw;
+ }
+ .hotelCoronaNotificationatag{
+     color: white;
+     font-size: 1.4vw;
+ }
+ #a1{
+    margin-left: 3%;
+ }
+ #hotelfirsth2{
+     margin: 0% 0% 0% 2%;
+     font-size: 2.3vw;
+ }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         /* Code for Media Screen is Here */
 @media screen and (max-width: 600px) {
    #pooransDiv1{
        flex-direction: column;
