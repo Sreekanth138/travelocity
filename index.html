@@ -1,15 +1,316 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE = html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel O City</title>
+    <title>Travelocity</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="javascript.js"></script>
+
+    <!--        CSS FIle Link And JS File Of Navbar   -->
+    <link rel="stylesheet" href="navbar.css">
+    <script src="NavBar.js"></script>
+
+    <style>
+
+    </style>
 </head>
-<link rel="stylesheet" href="css.css">
 
 <body>
+     
+    <nav class="navbar">
+        <a href="#" class="navLogo">
+            <img src="https://i.ibb.co/c8Jzh7C/logo.png" />
+        </a>
+        <div class="navDropdown">
+            <button onclick="moreTravel()" class="navDropbtn">More Travel &nbsp; &or; </button>
+            <div id="myDropdown" class="navDropdown_cont">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+
+                    Packages
+
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Hotels
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Cars
+
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Flights
+
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Cruises
+
+                </a>
+                <a href="#">Things to do</a>
+                <a href="#">Tips for Me</a>
+                <a href="#">Discover</a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Vaction Rentals
+                </a>
+                <a href="#">Travel Deals</a>
+                <a href="#">Get Inspired</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="Signin">
+            <button onclick="myFunction()" class="signinBtn">Sign In</button>
+            <div id="mySignin" class="Signin-content">
+                <h4 class="h4_margin">Members can access discounts and special features</h4>
+                <a href="#" class="go_to_signin" id="color_white">Sign in</a>
+                <a href="#" class="go_to_create_account" id="color_blue">Create a free account</a><br>
+                <a href="#" class="a_margin">List of favorites</a>
+                <hr>
+                <a href="#" class="a_margin">Feedback</a>
+            </div>
+        </div>
+
+        <a href="#" class="navA">Trips</a>
+        <a href="#" class="navA">Support</a>
+        <a href="#" class="navA">List Your property</a>
+        <a href="#" class="navA">Espanol</a>
+
+
+    </nav>
+    <section>
+        <div class="home_page_bcg">
+
+            <div class="bcg_white">
+
+                <div class="sub_cont">
+                    <div class="hotels line_hover" onclick="show('hotels_all');">
+                        <img src="https://i.ibb.co/DRn7d61/hotel.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Hotels</p>
+                        <p id="paraline1" style="display: none;"></p>
+                    </div>
+
+                    <div class="flights line_hover" onclick="show('flights_all');">
+                        <img src="https://i.ibb.co/K5JhtLw/flight.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Flight</p>
+                        <p id="paraline2" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="cars line_hover" onclick="show('cars_all');">
+                        <img src="https://i.ibb.co/J21mBV6/car.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Cars</p>
+                        <p id="paraline3" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="packages line_hover" onclick="show('packages_all');">
+                        <img src="https://i.ibb.co/BCvCM3W/package.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para " >Package</p>
+                        <p id="paraline4" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="things_to_do line_hover" onclick="show('things_to_do_all');">
+                        <img src="https://i.ibb.co/wWm0HBb/to-do.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">To Do</p>
+                        <p id="paraline5" style="display: none;"></p>
+
+                    </div>
+
+                    <div class="cruises line_hover" onclick="show('cruises_all');">
+                        <img src="https://i.ibb.co/KmnS6v4/cruises.png" class="sub_cont_imgs">
+                        <p class="sub_cont_para ">Cruise</p>
+                        <p id="paraline6" style="display: none;"></p>
+
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div id="hotels_all">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+
+
+                <div id="flights_all" style="display: none;">
+                    <button class="btn1">Leaving From</button>
+
+                    <input class="btn2" placeholder="Departing" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Returning" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">Going To</button>
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a Place to Stay</label>
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+
+                <div id="cars_all" style="display: none;">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div>
+
+                <div id="packages_all" style="display: none;">
+                    <button class="btn1">Leaving From</button>
+                    <input class="btn2" placeholder="Departing" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Returning" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">Going To</button>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">I only need accommodations for part of my trip</label>
+
+                    <button class="search">Search</button><br>
+
+
+                </div>
+                <div id="things_to_do_all" style="display: none;">
+                    <button class="btn1">Things To Go</button>
+                    <input class="btn2" placeholder="From" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="To" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+
+                </div>
+                <div id="cruises_all" style="display: none;">
+                    <button class="btn1">Going To</button>
+                    <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
+                        onblur="(this.type='text')">
+                    <button class="btn4">travelers</button>
+
+
+
+
+                    <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
+                    <label for="checkbox1">Add a flight</label>
+
+
+
+
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox1">Add a car</label>
+                    <button class="btn1" id="text" style="display:none">Leaving From</button>
+
+                    <button class="search">Search</button><br>
+
+                </div
+
+            </div>
+        </div>
+    </section>
+          
     <div id="pooransDiv1">
         <div id="pooransDiv1Main1">
             <img src="https://i.postimg.cc/NGWWGqBS/pooransdiv1img1.png" alt="" class="pooransDiv1img">
@@ -116,7 +417,6 @@
          </div>
        </div>
     </div>
-    <script src="javascript.js"></script>
-</body>
 
+</body>
 </html>
