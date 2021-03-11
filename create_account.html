@@ -55,13 +55,13 @@
                 <div class="caform-p">
                     <p>Or,Create an account with your Email</p>
                 </div>
-                 <form id="form" onsubmit="CreateAccount()">
+                 <form id="form">
                     <div id="firstName">
                         Given/First Name</br>
-                        <input type="text">
+                        <input type="text" id="cafirstname">
                     </div>
                     <div id="surname">
-                        Surname/Last Name</br><input type="text">
+                        Surname/Last Name</br><input type="text" id="casurname">
                     </div>
                      <div id="email">
                         Email Address</br><input type="email" id="caemail">
@@ -80,11 +80,12 @@
                         <input type="checkbox" id="secondp">
                         <label for="secondp"> I have read and agree to the <a href="#">Terms of Use</a>and the <a href="#">Privacy Policy</a></label>
                     </div>
-                        
+ 
                     <div id="submit-button">
-                        <button id="cabutton" type="submit">Create Account</button>
+                        <button id="cabutton">Create Account</button>
                     </div>
                 </form>
+
             </div> 
         </div>
     </div>
