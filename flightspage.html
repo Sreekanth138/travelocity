@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travelocity</title>
+    <link rel="stylesheet" href="flightspage.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+    </style>
+</head>
+<body>
+    <div id="searchflight">
+        <h1>Search flights</h1>
+        <p>Plan with flexible change policies</p>
+        <div id="threebuttons">
+            <button id="roundtrip">Roundtrip</button>
+            <button id="oneway">One-way</button>
+            <button id="Multi-city">Multi-city</button>
+            <button id="traveler">Traveler</button>
+            <button id="economy">Economy</button>
+        </div>
+       <div class="inputsfour">
+        <i class="fas fa-map-marker-alt icon"></i>
+            <input type="text" placeholder="Leaving from" id="leavingfrom">
+            <i class="fas fa-map-marker-alt icon"></i>
+           <input type="text" placeholder="Going to" id="goingto">
+           <i class="fas fa-calendar-day icon"></i>
+           <input class="departing" placeholder="Departing" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+           <i class="fas fa-calendar-day icon"></i>
+           <input class="returning" placeholder="Returning" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+            <button id="search">Search</button>
+       </div>
+
+    </div>
+</body>
+<script src="flightspage.js"></script>
+</html>

@@ -1,3 +1,42 @@
+//prasad nav bar js code
+function moreTravel() {
+    document.getElementById("myDropdown").classList.toggle("navShow");
+
+    window.onclick = function (event) {
+        if (!event.target.matches('.navDropbtn')) {
+            let dropdowns = document.getElementsByClassName("navDropdown_cont");
+            let i;
+            for (i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('navShow')) {
+                    openDropdown.classList.remove('navShow');
+                }
+            }
+        }
+    }
+}
+
+
+function myFunction() {
+    document.getElementById("mySignin").classList.toggle("signinShow");
+    window.onclick = function (event) {
+        if (!event.target.matches('.signinBtn')) {
+            let Signins = document.getElementsByClassName("Signin-content");
+            let i;
+            for (i = 0; i < Signins.length; i++) {
+                let openSignin = Signins[i];
+                if (openSignin.classList.contains('signinShow')) {
+                    openSignin.classList.remove('signinShow');
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// sign in page functions
 function Signin(e) {
     e.preventDefault()
     var storedemail = localStorage.getItem("Email")
@@ -17,7 +56,6 @@ function Signin(e) {
     }
     else if (password != storedpassword || email != storedemail) {
         e.preventDefault()
-       // alert("Username or Password Incorrect")
         para.textContent = "Invalid User"
         para.style.color = "red"
         document.getElementById("forgot").append(para)

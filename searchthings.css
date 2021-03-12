@@ -1,0 +1,64 @@
+#searchthings {
+  height: 300px;
+  width: 85%;
+  margin: auto;
+  margin-top: 150px;
+}
+#searchthings > h1 {
+  color: #242c33;
+  font-weight: 700;
+  font-size: 1.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.inputsthree > input {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#thingstodo {
+  width: 570px;
+  text-align: center;
+}
+.searchfrom,
+.searchto {
+  margin-left: 10px;
+}
+.inputsthree > i {
+  position: absolute;
+}
+.inputsthree {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.inputsthree > input:hover {
+  border-color: blue;
+}
+.inputsthree > input:placeholder-shown {
+  font-size: 16px;
+}
+.icon {
+  padding: 15px;
+  color: #505c66;
+  min-width: 50px;
+  text-align: center;
+}
+
+.searchfrom,
+.searchto {
+  width: 250px;
+  text-align: center;
+}
+
+#search {
+  width: 170px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #0d5ab9;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  border-color: blue;
+  border: none;
+  cursor: pointer;
+}
