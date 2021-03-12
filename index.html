@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css.css">
     <script src="javascript.js"></script>
 
-    <!--        CSS FIle Link And JS File Of Navbar   -->
+    <!--        CSS and JS File Of Navbar   -->
     <link rel="stylesheet" href="navbar.css">
     <script src="NavBar.js"></script>
 
@@ -16,13 +16,14 @@
 </head>
 
 <body>
-     
+    <!---------------------    Nav Bar Start ----------------------------->
+
     <nav class="navbar">
         <a href="#" class="navLogo">
             <img src="https://i.ibb.co/c8Jzh7C/logo.png" />
         </a>
         <div class="navDropdown">
-            <button onclick="moreTravel()" class="navDropbtn">More Travel &nbsp; &or; </button>
+            <button onclick="moreTravel()" class="navDropbtn">More Travel</button>
             <div id="myDropdown" class="navDropdown_cont">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -98,7 +99,11 @@
         </div>
 
 
-
+        <a href="#" class="navA1">Espanol</a>
+        <a href="#" class="navA2">List Your property</a>
+        <a href="#" class="navA3">Support</a>
+        <a href="#" class="navA4">Trips</a>
+   
 
         <div class="Signin">
             <button onclick="myFunction()" class="signinBtn">Sign In</button>
@@ -112,13 +117,16 @@
             </div>
         </div>
 
-        <a href="#" class="navA">Trips</a>
-        <a href="#" class="navA">Support</a>
-        <a href="#" class="navA">List Your property</a>
-        <a href="#" class="navA">Espanol</a>
 
 
     </nav>
+
+    <!---------------------    Nav Bar End ----------------------------->
+
+
+
+    <!---------------------   Home Page Top Search Data Start ----------------------------->
+
     <section>
         <div class="home_page_bcg">
 
@@ -168,16 +176,52 @@
                 </div>
                 <div class="hr"></div>
                 <div id="hotels_all">
-                    <button class="btn1">Going To</button>
+
+
+
+
+                    
+<!-------------------------     Onclick Card Open Start     ----------------------->
+
+                <button onclick="Open_Btn1_Card1()" class="btn1">Going To</button>
+                <div id="openCard" class="btncontent">
+                    <h4 class="h4_margin" style="text-align: center;">Search City Name</h4>
+                    <input type="search"  class="card1_search"  placeholder="Where are you going?">
+                    <br><br><br><br><br><br>
+                    <a href="#" class="go_to_signin" id="color_white">Search</a>
+                    <br>
+
+                </div>
+<!-------------------------     Onclick Card Open End        ----------------------->
+
                     <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
                         onblur="(this.type='text')">
                     <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
                         onblur="(this.type='text')">
-                    <button class="btn4">travelers</button>
+            <!-------------------------     Onclick Card Open Start     ----------------------->
+
+                    <button onclick="Open_Btn4_Card2()" class="btn4">Travelers</button>
+                    <div id="openCard2" class="btn4_content">
+                        <h4 class="h4_margin" style="color: rgb(51, 51, 51);">Travelers</h4>
+                        <hr>
+                        <h4 class="h4_margin">Room 1</h4>
+                        <h4 class="h4_margin" style="color: grey; float: left;">Adults</h4>
+                        <div class="h4_magin" style="float: right; margin-right: 10px;">
+                            <input type="button" value="-" onclick="minus()">
+                            <input style="width: 20px;" type="text" size="25" value="1" id="count">
+                            <input type="button" value="+" onclick="plus()">                        
+                        </div>
+                        
+                        <br><br><br><br>
+                        <a href="#" class="go_to_signin" id="color_white">Done</a>
+                        <br>
+                    </div>
+
+            <!-------------------------     Onclick Card Open End        ----------------------->
 
 
 
-
+                    <br>
                     <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
                     <label for="checkbox1">Add a flight</label>
 
@@ -307,19 +351,12 @@
 
                 </div>
 
-
-
-      
-
-
-
-
-
             </div>
         </div>
     </section>
+    <!---------------------   Home Page Top Search End  ----------------------------->
 
 </body>
 
-  
+
 </html>
