@@ -94,8 +94,6 @@
 
 .navDropdown {
     grid-area: box2;
-    
-
     position: relative;
     display: inline-block;
 }
@@ -696,70 +694,8 @@ flex-basis: 25%;
  
       
           /* Code for Media Screen is Here */
-@media screen and (max-width: 768px) {
-    .bcg_white {
-        grid-template: "box1"
-            "box2 box3"
-            "box4";
-        height: 450px;
-    }
 
-    .btn1 {
-
-        height: 40px;
-        width: 90%;
-        display: block;
-        margin: 2% 5%;
-    }
-
-    .btn2 {
-        height: 40px;
-        width: 42%;
-        margin-left: 5%;
-
-    }
-
-    .btn3 {
-        height: 40px;
-        width: 43%;
-
-    }
-
-    .btn4 {
-        height: 40px;
-        width: 90%;
-        margin: 2% 5%;
-    }
-
-    .sub_cont_imgs {
-        height: 40%;
-        width: 35%;
-    }
-
-    .sub_cont_para {
-        font-size: 16px;
-    }
-
-    .hotels,
-    .flights,
-    .cars,
-    .packages,
-    .things_to_do,
-    .cruises {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .hr {
-        height: 1px;
-        width: 90%;
-        background-color: rgb(160, 160, 160);
-
-        margin: auto;
-    }
-
-
-}
+    
 
 
 /*---------------------- On click Card Open ----------------------*/
@@ -834,6 +770,67 @@ flex-basis: 25%;
     
 
 /*----------------------  Home Page Top Search Data CSS End---------------------*/
+@media screen and (max-width: 768px) {
+    .bcg_white {
+        grid-template: "box1"
+            "box2 box3"
+            "box4";
+        height: 450px;
+    }
+
+    .btn1 {
+
+        height: 40px;
+        width: 90%;
+        display: block;
+        margin: 2% 5%;
+    }
+
+    .btn2 {
+        height: 40px;
+        width: 42%;
+        margin-left: 5%;
+
+    }
+
+    .btn3 {
+        height: 40px;
+        width: 43%;
+
+    }
+
+    .btn4 {
+        height: 40px;
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .sub_cont_imgs {
+        height: 40%;
+        width: 35%;
+    }
+
+    .sub_cont_para {
+        font-size: 16px;
+    }
+
+    .hotels,
+    .flights,
+    .cars,
+    .packages,
+    .things_to_do,
+    .cruises {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hr {
+        height: 1px;
+        width: 90%;
+        background-color: rgb(160, 160, 160);
+
+        margin: auto;
+    }
 
    #pooransDiv1{
        flex-direction: column;
