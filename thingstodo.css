@@ -435,7 +435,7 @@ border-top-left-radius: 20px;
   width: 94%;
   margin: 1% 3% 0% 3%;
   height: 250px;
-  background-image: url("./img/spotlightimg.jpg");
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/09/28/tvlydesktop2.jpg");
   background-size: cover;
   border-radius: 10px;
 }
@@ -473,37 +473,37 @@ z-index: 100;
 }
 #pooransnewDiv1{
   flex-basis: 15%;
-  background-image: url("./img/slideshowimg1.webp");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2020/01/10/TVLY_Affinity_Family_img_444x444_20200107.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 #pooransnewDiv2{
   flex-basis: 15%;
   margin-left: 2%;
-  background-image: url("./img/slideshowimg2.webp");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2019/08/06/TVLY_Affinity_Budget_3_img_444x444_20190729.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 #pooransnewDiv3{
   flex-basis: 15%;
   margin-left: 2%;
-  background-image: url("./img/slideshowimg3.jpg");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2019/03/26/TVLY_Affinity_Beach_2_img_124x124_20190322.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 #pooransnewDiv4{
   flex-basis: 15%;
   margin-left: 2%;
-  background-image: url("./img/slideshowimg4.webp");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2020/01/10/TVLY_Affinity_AllInclusive_img_444x444_20200107.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 #pooransnewDiv5{
   flex-basis: 15%;
   margin-left: 2%;
-  background-image: url("./img/slideshowimg5.webp");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2019/08/06/TVLY_Affinity_PetFriendly_1_img_444x444_20190729.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 #pooransnewDiv6{
   flex-basis: 15%;
   margin-left: 2%;
-  background-image: url("./img/slideshowimg6.webp");
+  background-image: url("https://a.travel-assets.com/flex/flexmanager/images/2019/08/06/TVLY_Affinity_Luxury_4_img_444x444_20190729.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
   background-size: cover;
 }
 .h3newDiv{

@@ -70,22 +70,3 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-
-
-function search(){
-    var leave = document.getElementById("leavingfrom").value;
-    var go = document.getElementById("goingto").value;
-    var form = document.getElementById("fromdate").value;
-    var to = document.getElementById("todate").value;
-    var tot = "flights+from+" + leave + "+to+" + go + "+departuredate+" + form + "+returndate+" + to
-    var param = new URLSearchParams("")
-    param.append("q",tot)
-    var x = "https://www.google.com/search?" + param;
-    document.getElementById("leavingfrom").value = "";
-    document.getElementById("goingto").value = "";
-    document.getElementById("fromdate").value = "";
-    document.getElementById("todate").value = "";
-    window.open(x)
-}
-
-   document.getElementById("search").addEventListener("click",search)

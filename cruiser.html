@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotels</title>
-    <link rel="stylesheet" href="hotels.css">
+    <title>Cruiser</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="cruiser.css">
 </head>
 <style>
 
@@ -134,27 +135,22 @@
             </div>
         </div>
         <!-- code for Coronanotification Ends Here -->
-        <!-- Code for Search Hotels Starts Here -->
-        <section>
-            <h2 id="searchhotels">Search Hotels</h2>
-                <div class="bcg_white">
-                    <div id="_all" style="display: block;">
-                        <button class="btn1">Going To</button>
-                        <input class="btn2" placeholder="Check In" type="text" onfocus="(this.type='date')"
-                            onblur="(this.type='text')">
-                        <input class="btn3" placeholder="Check Out" type="text" onfocus="(this.type='date')"
-                            onblur="(this.type='text')">
-                        <button class="btn4">travelers</button>
-                        <input class="checkbox1" type="checkbox" id="myCheck" onclick="checkbox_CreateElement()">
-                        <label for="checkbox1">Add a flight</label>
-                        <input type="checkbox" class="checkbox2">
-                        <label for="checkbox1">Add a car</label>
-                        <button class="btn1" id="text" style="display:none">Leaving From</button>
-                        <button class="search">Search</button>
-                    </div>
-                </div>
-        </section>
-        <!-- code for search Hotels Ends Here -->
+        <!-- Code for Search Cruises Starts Here -->
+        <div id="searchcruises">
+            <h1>Search cruises</h1>
+            <p>For expert cruise advice, call 1-855-257-1605.</p>
+           <div class="inputsfour-cruises">
+                <input type="text" placeholder="Enter destination" id="selectdestination">
+                <i class="fas fa-user-alt icon"></i>
+               <input type="text" placeholder="Travelers in the cabin" id="travelersinthecabin">
+               <i class="fas fa-calendar-day icon"></i>
+               <input class="departsearly" placeholder="Departs as early as" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+               <i class="fas fa-calendar-day icon"></i>
+               <input class="departslate" placeholder="Departs as late as" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+                <button id="search">Search</button>
+           </div>
+          </div>
+        <!-- code for search Cruises Ends Here -->
 
     </div>
 
@@ -169,11 +165,11 @@
         <div id="pooransDiv2Main2">
             <div id="pooransDiv2Main2Div1">
                 <div class="smallDiv1">
-                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/07/15/6TVLY_HOTELS_Marquee_1_Hotels_under_99_121119.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh" alt="">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/07/20/9last_minute_cruise_667x320.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh" alt="">
                 </div>
                 <div class="smallDiv2">
-                    <h3>Do not disturb: Hotel deals in progress</h3>
-                    <p>For less than $99 a night rest easy with free cancels on most hotels.</p>
+                    <h3>Set sail on a whim</h3>
+                    <p>Find amazing deals on voyages to the Bahamas, Mexico and beyond.</p>
                 </div>
             </div>
             <div id="pooransDiv2Main2Div2">
@@ -188,24 +184,7 @@
         </div>
     </div>
     <!-- code for PooransDiv2 Ends Here -->
-     <!-- code for PooransDiv1 Starts Here -->
-     <h2 id="pooransDiv1h2">Travel advice and inspiration from Experts</h2>
-    <div id="pooransDiv1">
-        <div id="pooransDiv1Main1">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/12/09/TVLY_Meso_Vegas_resorts_hotel_editorial_module_UPDATE.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="pooransDiv1img">
-            <p class="pooransDiv1para clear">Forget about sleep. Visit these hotels for their extraordinary attractions.</p>
-        </div>
-        <div id="pooransDiv1Main2">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/11/10/Hotel_amenities.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="pooransDiv1img">
-            <p class="pooransDiv1para clear">Ask about these secret amenities next time you check into your favorite hotel.</p>
-        </div>
-        <div id="pooransDiv1Main3">
-            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/11/10/Healthier_hotel_stays_travel-advice-2.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"alt="" class="pooransDiv1img">
-            <p class="pooransDiv1para clear">We know you’re yearning to get out of town. Here's how to travel safer and smarter during times like these.</p>
-        </div>
-    </div>
-        <!-- code for PooransDiv1 Ends Here -->
-      <!-- code for PooransDiv3 Ends Here -->
+    <!-- code for PooransDiv3 Ends Here -->
     <h2 id="pooransDiv3h2" class="clear">In the spotlight</h2>
     <div id="pooransDiv3" class="clear">
         <h2 id="pooransDiv3H2">Roam near home</h2>
@@ -214,6 +193,24 @@
     </div>
 
      <!-- code for PooransDiv3 Ends Here -->
+     <!-- code for PooransDiv1 Starts Here -->
+     <h2 id="pooransDiv1h2">Travel advice and aspiration</h2>
+    <div id="pooransDiv1">
+        <div id="pooransDiv1Main1">
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/05/12/TVLY_CRUISE_MAY_anatomy-of-a-cruise-ship.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="pooransDiv1img">
+            <p class="pooransDiv1para clear">Here are a few top things to consider to help you pick the perfect stateroom.</p>
+        </div>
+        <div id="pooransDiv1Main2">
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/05/12/TVLY_CRUISE_MAY_expedition_cruises.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="pooransDiv1img">
+            <p class="pooransDiv1para clear">Expedition cruising makes exotic destinations easier to reach than ever before.</p>
+        </div>
+        <div id="pooransDiv1Main3">
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/05/12/TVLY_CRUISE_MAY_Disney_Cruise.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"alt="" class="pooransDiv1img">
+            <p class="pooransDiv1para clear">Taking a Disney Cruise is a fun experience for everyone in the family - you won't want to miss a thing!</p>
+        </div>
+    </div>
+        <!-- code for PooransDiv1 Ends Here -->
+
          <!-- code for PooransnewDiv Starts Here -->
          <h2 id="pooransnewDivh2">Deals designed for you</h2>
          <div id="pooransnewDiv">
@@ -462,8 +459,6 @@
   
       <div style="height: 50px;  "></div>
        <!-- code for amolfooter Ends Here -->
-    <script src="hotels.js">
-        </script>
+    <script src="cruiser.js"></script>
 </body>
 </html>
-

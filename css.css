@@ -321,11 +321,11 @@ button:focus {
 .cruises {
     border: 0.2px solid rgb(147, 150, 153);
     float: left;
-    box-shadow: 2px 2px 3px gray;
     height: 60px;
     width: 12%;
     margin: 1.7%;
     text-align: center;
+    border: none;
 }
 
 .sub_cont {
@@ -337,12 +337,12 @@ button:focus {
 
 .sub_cont_imgs {
     height: 40%;
-    width: 30%;
+    width: 25%;
 
 }
 
 .sub_cont_para {
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
     margin-top: 0px;
 }
@@ -355,7 +355,7 @@ button:focus {
 }
 
 .line_hover:hover{
-    border-bottom:1px solid #004292;
+    background-color: #4c78ad;
 }
 .search_hotels_size{
     font-size: 30px;
@@ -811,7 +811,7 @@ flex-basis: 25%;
     }
 
     .sub_cont_para {
-        font-size: 16px;
+        font-size: 2.2vw;
     }
 
     .hotels,
@@ -822,6 +822,7 @@ flex-basis: 25%;
     .cruises {
         text-align: center;
         margin-bottom: 30px;
+        width:13%;
     }
 
     .hr {
