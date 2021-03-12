@@ -1,3 +1,4 @@
+
 //   The Code for Navbar Starts Here
 function moreTravel() {
     document.getElementById("myDropdown").classList.toggle("navShow");
@@ -102,6 +103,7 @@ var countEl = document.getElementById("count")
   }
 }
 
+
 //Amol's JS
 var coll = document.getElementsByClassName("amol_collapsible");
 var i;
@@ -117,7 +119,6 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-
 
 
 

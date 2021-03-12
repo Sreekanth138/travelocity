@@ -1104,10 +1104,82 @@ flex-basis: 25%;
       margin: auto;
       margin-top: 2vh;
   }
+  #amol_package_bg{
+      width: 100vw;
+      background-color: white;
+  }
+  #amol_package_search{
+      width: 90vw;
+      margin: auto;
+  }
+  #amol_package_buttonBox{
+      display: flex;
+      flex-direction: row;
+      column-gap: 2vw;
+  }
+  #amol_bdiv1, #amol_bdiv2{
+      border: 1px solid #0d5ab9;
+      background-color:#0d5ab9;
+      color: white;
+      padding: 0.7%;
+      border-radius: 25%;
+      font-size: 13px;
+      height: 2vh;
+  }
+  #amol_bdiv3{
+    border: 1px solid #0d5ab9;
+    padding: 0.7%;
+    border-radius: 25%;
+    font-size: 13px;
+    height: 2vh;
+    color: #0d5ab9;
+  }
+  #amol_package_inputs{
+      width: 95vw;
+      margin: auto;
+      margin-top: 4vh;
+  }
+  #amol_ip1,#amol_ip2{
+      border: 1px solid gray;
+      border-radius: 5%;
+      padding: 1%;
+      width: 27vw;
+  }
+  #amol_ip3,#amol_ip4{
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 1%;
+    width: 13vw;
+    margin-bottom: 1vh;
+  }
+
+  #amol_package_button{
+      height: 7vh;
+      width: 15vw;
+      margin-top: 4vh;
+      border: 1px solid #0d5ab9;
+      background-color:#0d5ab9;
+      color: white;
+      border-radius: 5%;
+      font-size: 18px;
+  }
+
+  #amol_footer_packages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1%;                      
+    row-gap: 5%;
+    margin: 1%;
+    margin-bottom: 10vh;
+    height: 25vh;
+    width: 90vw;
+    margin: auto;
+    
+
+  }
+ 
   
-  
-  
-  
+
   @media screen and (max-width: 768px) {
     #below_footer {
     display: flex;
@@ -1135,4 +1207,107 @@ flex-basis: 25%;
     }
   }
 
+    /* Css for Coronanotification Starts here */
+
+#hotelCoronaNotification{
+    width: 96%;
+    margin: 3% 2% 3% 2%;
+    border: 1px solid black;
+    height: 100px;
+    background-color: #505c66;
+    border-radius: 10px;
+    display: flex;
+  }     
+  #hotelCoronaNotificationDiv1{
+    flex-basis: 5%;
+  }
+  #hotelCoronaNotificationDiv2{
+    flex-basis: 95%;
+  }
+  #alertsvg{
+   height: 30%;
+   width: 40%;
+   margin: 55% 0% 0% 25%;
+   fill: white;
+  }
+  #hotelCoronaNotificationDiv2para{
+    color: white;
+    font-size: 1.3vw;
+  }
+  .hotelCoronaNotificationatag{
+    color: white;
+    font-size: 1.4vw;
+  }
+  #a1{
+   margin-left: 3%;
+  }
+  #hotelfirsth2{
+    margin: 0% 0% 0% 2%;
+    font-size: 2.3vw;
+  }
+  /* Css for Coronanotification Ends here */
+  /* From Here the Code for Id=pooransnewDiv is Starting */
+#pooransnewDivh2{
+    margin: 3% 0% 0% 3%;
+    font-size: 2.5vw;  
+    font-weight: bolder;
+    color: #505c66;
+  }
+  #pooransnewDiv{
+    width: 94%;
+    margin: 1% 3% 0% 3%;
+    display: flex;
+    height: 180px;
+  }
+  #pooransnewDiv > div{
+    border-radius: 10px;
+  }
+  #pooransnewDiv1{
+    flex-basis: 15%;
+    background-image: url("./img/slideshowimg1.webp");
+    background-size: cover;
+  }
+  #pooransnewDiv2{
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("./img/slideshowimg2.webp");
+    background-size: cover;
+  }
+  #pooransnewDiv3{
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("./img/slideshowimg3.jpg");
+    background-size: cover;
+  }
+  #pooransnewDiv4{
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("./img/slideshowimg4.webp");
+    background-size: cover;
+  }
+  #pooransnewDiv5{
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("./img/slideshowimg5.webp");
+    background-size: cover;
+  }
+  #pooransnewDiv6{
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("./img/slideshowimg6.webp");
+    background-size: cover;
+  }
+  .h3newDiv{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0px 2px rgb(17 21 26 / 100%);
+    background-color: rgba(17,21,26,0.5);
+    font-size: 1.5vw;
+    margin: 0%;
+    padding: 45% 0% 46% 0%;
+    border-radius: 10px;
+  }
+  
+  /* From Here the Code for Id=pooransnewDiv is Ending */
+  
 
