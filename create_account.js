@@ -1,17 +1,41 @@
-// var old = JSON.parse(localStorage.getItem('details')) || [];
-// var newdata = 
-// {
-//  name:'sreekanth',
-// }
-//  old.push(newdata);
-//  localStorage.setItem('details', JSON.stringify(old));
+//prasad nav bar js code
+function moreTravel() {
+    document.getElementById("myDropdown").classList.toggle("navShow");
 
-//  var firstname = document.getElementById("cafirstname").value
-//  var surname = document.getElementById("casurname").value
-//  var email = document.getElementById("caemail").value 
-//  var password = document.getElementById("capassword").value
-//  var conpassword = document.getElementById("caconpassword").value
+    window.onclick = function (event) {
+        if (!event.target.matches('.navDropbtn')) {
+            let dropdowns = document.getElementsByClassName("navDropdown_cont");
+            let i;
+            for (i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('navShow')) {
+                    openDropdown.classList.remove('navShow');
+                }
+            }
+        }
+    }
+}
 
+
+function myFunction() {
+    document.getElementById("mySignin").classList.toggle("signinShow");
+    window.onclick = function (event) {
+        if (!event.target.matches('.signinBtn')) {
+            let Signins = document.getElementsByClassName("Signin-content");
+            let i;
+            for (i = 0; i < Signins.length; i++) {
+                let openSignin = Signins[i];
+                if (openSignin.classList.contains('signinShow')) {
+                    openSignin.classList.remove('signinShow');
+                }
+            }
+        }
+    }
+}
+
+
+
+//sreekanth js code 
 function CreateAccount(e){
     e.preventDefault()
     
@@ -40,26 +64,6 @@ function CreateAccount(e){
     }
 
 
-   //window.location.href = `./signin.html`
 }
 document.getElementById("cabutton").addEventListener("click",CreateAccount)
 
-// function matchPassword() {
-
-
-//     var pw1 = document.getElementById("capassword").value
-//     var pw2 = document.getElementById("caconpassword").value
-
-//     if (pw1 != pw2) {
-//         alert("Passwords did not match")
-//     }
-//    else if(email.length == 0 || firstname.length == 0 || surname.length == 0 || password.length == 0 || conpassword.length == 0) {
-//         alert("Please Enter your Input fields")
-//     }
-       
-//     else {
-//         alert("Account Created Successful")
-//     }
-    
-   
-// }
