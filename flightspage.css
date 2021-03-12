@@ -21,7 +21,7 @@
 }
 #threebuttons > button {
   border: 1px solid black;
-  width: 130px;
+  width: 10%;
   height: 40px;
 
   border: none;
@@ -44,7 +44,7 @@
   color: #0d5ab9;
 }
 #traveler {
-  margin-left: 450px;
+  margin-left: 40%;
 }
 .inputsfour > input {
   height: 40px;
@@ -78,7 +78,7 @@
 
 #leavingfrom,
 #goingto {
-  width: 350px;
+  width: 30%;
   text-align: center;
 }
 .departing,
