@@ -363,7 +363,7 @@ button:focus {
   /* From here the Code for Div Below Navbar made By Prasad is Ended */
  /* From Here the Code for Id=Pooransdiv1 is Started */
 #pooransDiv1{
-    width: 100%;
+    width: 99%;
     display: flex;
     margin: 4% 0% 4% 0%;
 }
@@ -1105,8 +1105,9 @@ flex-basis: 25%;
       margin-top: 2vh;
   }
   #amol_package_bg{
-      width: 100vw;
+      width: 98vw;
       background-color: white;
+      
   }
   #amol_package_search{
       width: 90vw;
@@ -1264,37 +1265,37 @@ flex-basis: 25%;
   }
   #pooransnewDiv1{
     flex-basis: 15%;
-    background-image: url("./img/slideshowimg1.webp");
+    background-image: url("https://i.ibb.co/H2zmyTj/slideshowimg1.webp");
     background-size: cover;
   }
   #pooransnewDiv2{
     flex-basis: 15%;
     margin-left: 2%;
-    background-image: url("./img/slideshowimg2.webp");
+    background-image: url("https://i.ibb.co/pxR9qv8/slideshowimg2.webp");
     background-size: cover;
   }
   #pooransnewDiv3{
     flex-basis: 15%;
     margin-left: 2%;
-    background-image: url("./img/slideshowimg3.jpg");
+    background-image: url("https://i.ibb.co/jyJbgK1/slideshowimg3.jpg");
     background-size: cover;
   }
   #pooransnewDiv4{
     flex-basis: 15%;
     margin-left: 2%;
-    background-image: url("./img/slideshowimg4.webp");
+    background-image: url("https://i.ibb.co/hgrhcg7/slideshowimg4.webp");
     background-size: cover;
   }
   #pooransnewDiv5{
     flex-basis: 15%;
     margin-left: 2%;
-    background-image: url("./img/slideshowimg5.webp");
+    background-image: url("https://i.ibb.co/NrQN3VY/slideshowimg5.webp");
     background-size: cover;
   }
   #pooransnewDiv6{
     flex-basis: 15%;
     margin-left: 2%;
-    background-image: url("./img/slideshowimg6.webp");
+    background-image: url("https://i.ibb.co/mDRVmsF/slideshowimg6.webp");
     background-size: cover;
   }
   .h3newDiv{
