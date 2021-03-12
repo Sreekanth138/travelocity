@@ -34,4 +34,17 @@
 
 
 
+    function Open_Btn1_Card1() {
+        document.getElementById("openCard").classList.toggle("btn1_Show");
+    }
+
+    function Open_Btn4_Card2() {
+        document.getElementById("openCard2").classList.toggle("btn4_Show");
+    }
+
+
+
+
+
+
 

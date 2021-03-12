@@ -5,34 +5,62 @@
     background-color: #0a438b;
     text-decoration: none;
     padding-top: 10px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-
-    /* display: grid;
-    grid-template: "box1 box2 box3 box4 box5 box6 box7"; */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template: "box1 box2 box3 box4 box5 box6 box7 ";
 
 }
 
 .navLogo {
+    grid-area: box1;
+    margin-top: 0px;
+    margin-left: 30px;
+    
 
-    margin: 30px;
 }
 
-.navA {
+.navA1 {
     color: white;
     text-decoration: none;
     font-size: 16px;
     margin: 16px;
-    float:right
+    grid-area: box3;
+    
+
+}
+.navA2 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box4;
+    
+
+
+}.navA3 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box5;
+
+    
+
+}.navA4 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box6;
+    
 
 
 }
 
 
-
 .navDropbtn {
-    background-color: #0a438b;
+    background-color:transparent;
     color: white;
     border-color: #0a438b;
     padding: 16px;
@@ -47,6 +75,9 @@
 
 
 .navDropdown {
+    grid-area: box2;
+    
+
     position: relative;
     display: inline-block;
 }
@@ -81,7 +112,7 @@
 
 
 .signinBtn {
-    background-color: #0a438b;
+    background-color:transparent;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -94,8 +125,8 @@
 
 .Signin {
     position: relative;
-    float: right;
-    margin-right:25px;
+    grid-area: box7;
+    
 
 }
 
@@ -157,3 +188,20 @@
     display: block;
 }
 
+
+@media only screen and (max-width: 760px) {
+    .navbar {
+        grid-template: "box1 box2 box6 box7";
+    }
+    .navLogo{
+        margin-top: 0px;
+        margin-left: 10px;
+
+    }
+    .Signin{
+        text-align: right;
+    }
+    .navA1,.navA2,.navA3,.navA4{
+        display: none;
+    }
+}

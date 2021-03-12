@@ -84,3 +84,25 @@ function myFunction() {
 
 
 
+
+
+var count = 1;
+function plus() {
+var countEl = document.getElementById("count")
+  count++;
+  countEl.value = count;
+  
+}
+
+function minus() {
+var countEl = document.getElementById("count")
+  if (count > 1) {
+      count--;
+      countEl.value = count;
+  }
+}
+
+
+
+
+

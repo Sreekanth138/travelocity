@@ -1,4 +1,9 @@
 
+/*----------------------  Home Page Top Search Data CSS Start---------------------*/
+
+
+
+
 
  /* Here all the General Codes Will be Return Here  */
 
@@ -201,16 +206,16 @@
 
 /* From Here the Code for Id= navbar is  Ended */
 /* From Here the Code for Div Below Navbar is Started and Made By Prasad */
+
 .home_page_bcg {
     background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
     border: 1px solid white;
     background-repeat: no-repeat;
     background-size: auto;
     height: 500px;
-    width: 104%;
-    margin-left: -10px;
-    margin: -1;
-}
+
+    width: 100%;
+  }
 
 
 .bcg_white {
@@ -231,6 +236,7 @@
     height: 100px;
     background-color: violet;
     border-radius: 10px;
+
 }
 
 
@@ -334,6 +340,7 @@ button:focus {
 .sub_cont_imgs {
     height: 40%;
     width: 30%;
+
 }
 
 .sub_cont_para {
@@ -380,6 +387,7 @@ button:focus {
     height: 80%;
     border-top-right-radius:20px;
 border-top-left-radius: 20px;
+
 }
 .pooransDiv1para{
     color: #505c66;
@@ -707,8 +715,6 @@ flex-basis: 25%;
     .btn2 {
         height: 40px;
         width: 42%;
-
-
         margin-left: 5%;
 
     }
@@ -751,6 +757,83 @@ flex-basis: 25%;
 
         margin: auto;
     }
+
+
+}
+
+
+/*---------------------- On click Card Open ----------------------*/
+
+
+
+.btncontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    -webkit-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+
+}
+
+.btncontent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.btn1_Show,.btn4_Show {
+    display: block;
+}
+
+
+.card1_search{
+        height: 40px;
+        width: 250px;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 16px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+
+    
+    .btn4_content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 320px;
+        -webkit-box-shadow: 0 0 10px gray;
+        box-shadow: 0 0 10px gray;
+        border-radius: 10px;
+        left: auto !important;
+        right: 90px !important;
+    }
+    
+    .btn4_content a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    
+    }
+    
+    
+    .btn4_Show {
+        display: block;
+    }
+    
+
+/*----------------------  Home Page Top Search Data CSS End---------------------*/
 
    #pooransDiv1{
        flex-direction: column;
@@ -883,4 +966,5 @@ flex-basis: 25%;
        font-size: 0.9vw;
    }
 }
+
 
