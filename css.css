@@ -1,5 +1,211 @@
+
 /*----------------------  Home Page Top Search Data CSS Start---------------------*/
 
+
+
+
+
+ /* Here all the General Codes Will be Return Here  */
+
+ body{
+    background-color: rgba(237,237,237,255);
+}
+.clear{
+    clear: both;
+}
+/* From Here the Code for Id= navbar is  Started */
+
+.navbar {
+    height: 60px;
+    background-color: #0a438b;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template: "box1 box2 box3 box4 box5 box6 box7 ";
+
+}
+
+.navLogo {
+    grid-area: box1;
+    margin-top: 0px;
+    margin-left: 30px;
+    
+
+}
+
+.navA1 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box3;
+    
+
+}
+.navA2 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box4;
+    
+
+
+}.navA3 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box5;
+
+    
+
+}.navA4 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+    grid-area: box6;
+    
+
+
+}
+
+
+.navDropbtn {
+    background-color:transparent;
+    color: white;
+    border-color: #0a438b;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+
+.navDropdown {
+    grid-area: box2;
+    
+
+    position: relative;
+    display: inline-block;
+}
+
+.navDropdown_cont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    -webkit-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+
+}
+
+.navDropdown_cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.navShow {
+    display: block;
+}
+
+
+
+
+
+
+.signinBtn {
+    background-color:transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: none;
+}
+
+
+
+.Signin {
+    position: relative;
+    grid-area: box7;
+    
+
+}
+
+.Signin-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    -webkit-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    left: auto !important;
+    right: 0 !important;
+}
+
+.Signin-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.go_to_signin {
+    height: 20px;
+    width: 250px;
+    background-color: #0d5ab9;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#color_white {
+    color: white;
+    text-align: center;
+}
+
+#color_blue {
+    color: #0d5ab9;
+}
+
+.go_to_create_account {
+    text-align: center;
+}
+
+.go_to_signin:hover {
+    background-color: #466ea0;
+
+}
+
+.h4_margin,
+.a_margin {
+    margin: 10px;
+    margin-left: 35px;
+}
+
+.signinShow {
+    display: block;
+}
+
+/* From Here the Code for Id= navbar is  Ended */
+/* From Here the Code for Div Below Navbar is Started and Made By Prasad */
 
 .home_page_bcg {
     background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
@@ -7,9 +213,9 @@
     background-repeat: no-repeat;
     background-size: auto;
     height: 500px;
-    width: 100%;
 
-}
+    width: 100%;
+  }
 
 
 .bcg_white {
@@ -30,7 +236,6 @@
     height: 100px;
     background-color: violet;
     border-radius: 10px;
-
 
 }
 
@@ -150,14 +355,348 @@ button:focus {
     background-color: rgb(160, 160, 160);
     margin: auto;
 }
+
 .line_hover:hover{
     border-bottom:1px solid #004292;
 }
 .search_hotels_size{
     font-size: 30px;
 }
+  /* From here the Code for Div Below Navbar made By Prasad is Ended */
+ /* From Here the Code for Id=Pooransdiv1 is Started */
+#pooransDiv1{
+    width: 100%;
+    display: flex;
+    margin: 4% 0% 4% 0%;
+}
 
-@media only screen and (max-width: 760px) {
+#pooransDiv1 > div{
+    flex-basis: 30%;
+    background-color: rgba(255,255,255,255);
+    border-radius: 20px;
+    padding-bottom: 2%;
+}
+#pooransDiv1Main1{
+    margin-left: 3%;
+}
+#pooransDiv1 >#pooransDiv1Main2,#pooransDiv1Main3{
+    margin-left: 2%;
+}
+.pooransDiv1img{
+    width: 100%;
+    height: 80%;
+    border-top-right-radius:20px;
+border-top-left-radius: 20px;
+
+}
+.pooransDiv1para{
+    color: #505c66;
+    font-family: "Segoe UI","Helvetica Neue", Arial, sans-serif;
+    font-size: 1vw;
+    padding: 0% 2% 0% 5%;
+    margin: 2% 0% 0% 0%;
+}
+
+/* From Here the Code for Id=Pooransdiv1 is Ending */
+/* From Here the Code for Id=Pooransdiv2 is Started */
+#pooransDiv2h2{
+  margin: 0% 0% 0% 3%;
+  font-size: 2.5vw;  
+  font-weight: bolder;
+  color: #505c66;
+}
+#pooransDiv2{
+    width: 94%;
+    display: flex;
+    margin: 1% 3% 0% 3%;
+    height: 300px;
+}
+#pooransDiv2Main1{
+    flex-basis: 69%;
+    background-color: rgba(255,255,255,255);
+    border-radius: 20px;
+}
+#pooransDiv2main1img{
+    height: 75%;
+    width: 100%;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+#pooransDiv2Main1H3{
+    margin: 1% 0% 0% 2%;
+    color: #505c66;
+}
+#pooransDiv2Main1Para{
+    margin: 1% 0% 0% 2%;
+    color: #505c66;
+}
+#pooransDiv2Main2{
+    flex-basis: 30%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+}
+#pooransDiv2Main2Div1{
+    flex-basis: 48%;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;
+    display: flex;
+}
+#pooransDiv2Main2Div2{
+    margin-top: 4%;
+    flex-basis: 48%;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;
+    display: flex;
+}
+.smallDiv1{
+    flex-basis: 30%;
+}
+.smallDiv1 > img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.smallDiv2{
+    flex-basis: 70%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.smallDiv2 > p{
+    font-size: 1.3vw;
+    margin: 3% 0% 0% 5%;
+}
+.smallDiv2 > h3{
+    font-size: 1.5vw;
+    margin: 16% 0% 0% 5%;
+    font-weight: bold;
+    color: #505c66;
+}
+
+/* From Here the Code for Id=Pooransdiv2 is Ending */
+/* From Here the Code for Id=Pooransdiv3 is Started */
+#pooransDiv3h2{
+    margin: 6% 0% 0% 3%;
+    font-size: 2.5vw;  
+    font-weight: bolder;
+    color: #505c66;
+  }
+#pooransDiv3{
+    width: 94%;
+    margin: 1% 3% 0% 3%;
+    height: 250px;
+    background-image: url("https://i.postimg.cc/y8qjSsG4/poorans-Div3-1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+#pooransDiv3H2{
+color: #fff;
+text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
+  padding: 15% 0% 0% 2%;
+  margin: 0% 0% 0% 0%;
+  font-weight: bolder;
+  z-index: 100;
+}
+#pooransDiv3para{
+    color: #fff;
+    text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
+    padding: 0% 0% 0% 2%;
+    margin: -1% 0% 0% 0%;
+    font-weight: bolder;
+}
+/* From Here the Code for Id=Pooransdiv3 is Ending */
+/* From Here the Code for Id=corona notification is Started */
+
+#coronaNotification{
+    width: 94%;
+    margin: 5% 3% 0% 3%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#coronaNotification > svg{
+    height: 40%;
+    width: 6%;
+    float: left;
+    margin: 2% 0% 2% 1%;
+    background: #dce1e6;
+    border-radius: 100px;
+}
+#coronaNotification > div > h4{
+    margin: 1% 0% 0% 9%;
+}
+#coronaNotification > div > p{
+    margin: 0% 0% 0% 9%;
+    color: #505c66;
+}
+#coronaNotification > div > a{
+    margin: 0% 0% 0% 2%;
+    padding-top: 0%;
+   text-decoration: none;
+}
+/* From Here the Code for Id=coronaNotification is Ending */
+/* From Here the Code for Id= is Started */
+#pooransDiv5h2{
+    margin: 4% 0% 0% 3%;
+    font-size: 2.5vw;  
+    font-weight: bolder;
+    color: #505c66;
+}
+#pooransDiv5{
+    width: 94%;
+    margin: 1% 3% 0% 3%;
+    height: 200px;
+    display: flex;
+}
+#pooransDiv5Div1{
+    flex-basis: 32%;
+    background-image: url("https://i.postimg.cc/5yhBvSnq/poorans-Div5-Div1.png");
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#pooransDiv5Div2{
+    flex-basis: 32%;
+    background-image: url("https://i.postimg.cc/ry3CvqM0/poorans-Div5-Div2.png");
+    background-size: cover;
+    margin-left: 2%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#pooransDiv5Div3{
+    flex-basis: 32%;
+    background-image: url("https://i.postimg.cc/XJDcNb5P/poorans-Div5-Div3.jpg");
+    background-size: cover;
+    margin-left: 2%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pooransDiv5h3{
+    color: #fff;
+    font-size: 1.5vw;
+    text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
+    margin: 45% 0% 0% 4%;
+    font-weight: bolder;
+}
+/*From Here the Code for Id=pooransDiv5 is Ending */
+/* From Here the Code for Id=pooransDiv56 is Started */
+#pooransDiv6{
+    width: 94%;
+    margin: 8% 3% 0% 3%;
+    height: 290px;
+    display: flex;
+    border-radius: 20px;
+}
+#pooransDiv6Main1{
+    flex-basis: 35%;
+    background-image: url("https://i.postimg.cc/8cJdj0Bz/poorans-Div6-Main1img.jpg");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#pooransDiv6Main2{
+    flex-basis: 65%;
+    display: flex;
+    background-color: rgba(255,255,255,255);
+    border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+#pooransDiv6Main2Div1{
+ flex-basis: 75%;
+
+}
+#pooransDiv6Main2Div2{
+flex-basis: 25%;
+}
+#getlinkh2{
+    font-size: 2.3vw;
+    font-weight: bold;
+    margin: 2% 0% 0% 4%;
+}
+#getlinkul{
+    margin-top: 0%;
+}
+#getlinkul > li{
+    margin: 1% 0% 0% 1%;
+    font-size: 1.3vw;
+}
+#getlinkh3{
+    font-size: 2vw;
+    margin: 0% 0% 3% 4%;
+}
+#getlinkpara{
+    color: #505c66;
+    font-size: 1vw;
+    margin: 2% 10% 0% 5%;
+}
+#getlinkofwebsite{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+#getlinkofwebsite > div{
+    flex-basis: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+#country{
+    padding: 1% 0% 0% 0%;
+}
+#country > label{
+    margin-left: 10%;
+    font-size: 1.2vw;
+}
+#countrycode{
+    padding-right: 15%;
+    font-size: 1.1vw;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: 0px solid white;
+    outline: none;
+}
+#phone > label{
+    margin-left: 10%;
+    font-size: 1.2vw;
+    margin-top: 2%;
+}
+#phonenumber{
+    border: 0px solid white;
+    padding: 10% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    outline: none;
+}
+#getlinkbtn{
+    background-color: #0d5ab9;
+}
+#getlinkbtnmain{
+    border: none;
+    background-color: #0d5ab9;
+    color: white;
+    font-size: 1.4vw;
+    margin: 10% 0% 0% 18%;
+    border-radius: 10px;
+    outline: none;
+}
+#Qrimg{
+    width: 80%;
+    height: 50%;
+    margin: 8% 0% 0% 10%;
+}
+#pooransDiv6Main2Div2 > h4{
+    margin: -5% 0% 0% 20%;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+/* From Here the Code for Id=pooransDiv56 is Ended */
+
+
+ 
+      
+          /* Code for Media Screen is Here */
+@media screen and (max-width: 768px) {
     .bcg_white {
         grid-template: "box1"
             "box2 box3"
@@ -171,9 +710,6 @@ button:focus {
         width: 90%;
         display: block;
         margin: 2% 5%;
-
-
-
     }
 
     .btn2 {
@@ -186,6 +722,7 @@ button:focus {
     .btn3 {
         height: 40px;
         width: 43%;
+
     }
 
     .btn4 {
@@ -220,6 +757,7 @@ button:focus {
 
         margin: auto;
     }
+
 
 }
 
@@ -296,3 +834,137 @@ button:focus {
     
 
 /*----------------------  Home Page Top Search Data CSS End---------------------*/
+
+   #pooransDiv1{
+       flex-direction: column;
+   }
+   #pooransDiv1 > div{
+    margin-top: 20px;
+   }
+   .pooransDiv1img{
+       height: 150px;
+   }
+   .pooransDiv1para{
+       font-size: 2vw;
+   }
+   #pooransDiv2{
+       flex-direction: column;
+       clear: both;
+       height: 600px;
+   }
+   #pooransDiv2main1img{
+       height: 80%;
+   }
+   #pooransDiv2h2 {
+    margin: 0% 0% -2% 3%;
+    font-size: 3.5vw;
+   }
+   #pooransDiv2 > div{
+       margin-top: 20px;
+   }
+   #pooransDiv2Main1H3{
+       font-size: 2.5vw;
+   }
+   #pooransDiv2Main1Para{
+       font-size: 2vw;
+   }
+   #pooransDiv2Main2Div1{
+       height: 120px;
+   }
+   #pooransDiv2Main2Div2{
+    height: 120px;
+   }
+   .smallDiv2 > h3{
+       font-size: 4vw;
+       margin: 4% 0% 0% 5%;
+   }
+   .smallDiv2 > p {
+    font-size: 2.5vw;
+    margin: 1% 0% 0% 5%;
+   }
+   #pooransDiv3{
+       height: 120px;
+   }
+   #pooransDiv3h2{
+       margin-top: 10%;
+   }
+   #pooransDiv3H2{
+    padding: 6% 0% 0% 2%;
+    font-size: 5vw;
+   }
+   #pooransDiv3para{
+       font-size: 3.5vw;
+       margin: -3% 0% 0% 0%;
+   }
+   #pooransDiv3h2{
+       font-size: 4vw;
+   }
+   #pooransDiv5h2{
+    font-size: 3.5vw;
+   }
+   #pooransDiv5{
+       flex-direction: column;
+       height: 360px;
+   }
+   #pooransDiv5Div1{
+       height: 120px;
+       margin-bottom: 3%;
+   }
+   #pooransDiv5Div2{
+    height: 120px;
+    margin-left: 0%;
+    margin-bottom: 3%;
+   }
+   #pooransDiv5Div3{
+    height: 120px;
+    margin-left: 0%;
+   }
+   .pooransDiv5h3{
+    margin: 13% 0% 0% 4%;
+    font-size: 3.5vw;
+   }
+   #pooransDiv6{
+      flex-direction: column;
+      height: 400px;
+   }
+   #pooransDiv6Main1{
+       flex-basis: 60%;
+       background-image: url("./img/pooransDiv6Main1img.jpg");
+       background-size: cover;
+       margin-bottom: 3%;
+   }
+   #pooransDiv6Main2{
+       flex-basis: 60%;
+   }
+   #country{
+       padding: 0%;
+   }
+   #countrycode{
+       padding: 1%;
+   }
+   #getlinkh2 {
+       font-size: 3.5vw;
+   }
+   #getlinkul > li{
+       font-size: 2vw;
+   }
+   #phonenumber{
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+   }
+   #getlinkofwebsite{
+       height: 25%;
+   }
+   #pooransDiv6Main2Div2 > h4{
+       font-size: 2vw;
+       margin: -5% 0% 0% 17%;
+   }
+   #getlinkbtn {
+    padding: 1% 0% 0% 2%;
+   }
+   #getlinkpara{
+       font-size: 0.9vw;
+   }
+}
+
+
