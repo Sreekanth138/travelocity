@@ -964,4 +964,175 @@ flex-basis: 25%;
    }
 }
 
+/*Amol's Css*/
+
+#above_footer{
+    width: 90vw;
+    margin: auto;
+    padding: 1%;
+    font-size: 40px;
+    
+}
+
+#amol_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 1%;                      
+    row-gap: 5%;
+    margin: 1%;
+    margin-bottom: 10vh;
+    height: 25vh;
+    width: 90vw;
+    margin: auto;
+    grid-template: "box1 box2"
+                   "box3 box4"
+                   "box5 box6"
+                   "box7 box7";
+}
+#amol_footer>div{
+  
+   
+   padding: 0.5vw;
+   background-color: white;
+   border-radius: 7%;
+   
+}
+#amol_footer_box1{
+    grid-area: box1;
+    width: 43vw;
+}
+
+#amol_footer_box2{
+    grid-area: box2;
+    width: 43vw;
+}
+#amol_footer_box3{
+    grid-area: box3;
+    width: 43vw;
+}
+#amol_footer_box4{
+    grid-area: box4;
+    width: 43vw;
+}
+#amol_footer_box5{
+    grid-area: box5;
+    width: 43vw;
+}
+#amol_footer_box6{
+    grid-area: box6;
+    width: 43vw;
+}
+
+#amol_footer_box7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-area: box7;
+    
+}
+
+
+  /* Style the button that is used to open and close the collapsible content */
+.amol_collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 10px;
+    width: 98%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 7%;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .amol_collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .amol_content {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    columns: 2;
+    background-color:white;
+    font-size: 20px;
+    
+   
+  }
+  .active, .amol_content>div>a:hover {
+    text-decoration: underline;
+  }
+  .amol_content>div>a{
+      text-decoration: none;
+      padding: 0.5%;
+      color: blue;
+      font-weight: lighter;
+      
+  }
+  
+  #below_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+    flex:8.33%;
+    margin-top: 5vh;
+    clear: both;
+}
+  
+  
+.active, #below_footer>a:hover {
+    text-decoration: underline;
+    
+  }
+
+  #footer_copyright_text{
+    width: 40vw;
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+  }
+  #footer_img{
+      width: 10vw;
+      margin: auto;
+      margin-top: 2vh;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    #below_footer {
+    display: flex;
+      
+      row-gap: 2vh;
+      flex-wrap: wrap;
+      flex:50%
+    }
+
+    #amol_footer{
+        display: grid;
+       row-gap: 1vh;
+       margin-bottom: 20vh;
+        grid-template: "box1 "
+                       "box2 "
+                       "box3 "
+                       "box4 "
+                       "box5 "
+                       "box6 "
+                       "box7 ";
+    }
+
+    #amol_footer>div{
+        width: 90vw;
+    }
+  }
+
 
