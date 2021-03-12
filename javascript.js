@@ -26,23 +26,21 @@ function checkbox_CreateElement() {
 
 
 
+var count = 1;
+function plus() {
+var countEl = document.getElementById("count")
+  count++;
+  countEl.value = count;
+  
+}
+
+function minus() {
+var countEl = document.getElementById("count")
+  if (count > 1) {
+      count--;
+      countEl.value = count;
+  }
+}
 
 
-
-
-// function openSearch() {
-//     document.getElementById("mySignin").classList.toggle("signinShow");
-//     window.onclick = function (event) {
-//         if (!event.target.matches('.signinBtn')) {
-//             let Signins = document.getElementsByClassName("Signin-content");
-//             let i;
-//             for (i = 0; i < Signins.length; i++) {
-//                 let openSignin = Signins[i];
-//                 if (openSignin.classList.contains('signinShow')) {
-//                     openSignin.classList.remove('signinShow');
-//                 }
-//             }
-//         }
-//     }
-// }
 
