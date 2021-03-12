@@ -17,7 +17,7 @@
   border-radius: 8px;
 }
 #thingstodo {
-  width: 570px;
+  width: 50%;
   text-align: center;
 }
 .searchfrom,
@@ -46,7 +46,7 @@
 
 .searchfrom,
 .searchto {
-  width: 250px;
+  width: 20%;
   text-align: center;
 }
 

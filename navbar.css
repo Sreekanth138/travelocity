@@ -8,6 +8,8 @@
     text-decoration: none;
     padding-top: 10px;
     display: grid;
+    width: 100%;
+    margin: auto;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template: "box1 box2 box3 box4 box5 box6 box7 ";
