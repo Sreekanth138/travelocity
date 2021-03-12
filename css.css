@@ -1,23 +1,23 @@
+/*----------------------  Home Page Top Search Data CSS Start---------------------*/
+
+
 .home_page_bcg {
     background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
-    border: 1px solid black;
+    border: 1px solid white;
     background-repeat: no-repeat;
     background-size: auto;
     height: 500px;
-    /* width: 104%;
-    margin-left: -10px; */
-    /* margin: -1; */
+    width: 100%;
+
 }
 
 
 .bcg_white {
     width: 90%;
     height: 400px;
-    /* margin: auto; */
     margin: 5%;
     background-color: white;
     border-radius: 10px;
-    /* -webkit-box-shadow: 2px 2px 10px rgb(0, 0, 0); */
     box-shadow: 0 0 4px rgb(255, 255, 255);
     border-radius: 10px;
 
@@ -30,7 +30,7 @@
     height: 100px;
     background-color: violet;
     border-radius: 10px;
-    /* margin-bottom: 40px; */
+
 
 }
 
@@ -104,11 +104,7 @@ button:focus {
 
 .checkbox1,
 .checkbox2 {
-    /* margin-right: 10px; */
-
     margin: 14px;
-    /* margin-top: 20px; 
-     margin-right: 10px;  */
 }
 
 
@@ -127,13 +123,11 @@ button:focus {
     width: 12%;
     margin: 1.7%;
     text-align: center;
-    /* margin-bottom: 50px; */
 }
 
 .sub_cont {
     height: 95px;
     width: 90%;
-    /* border: 2px solid forestgreen; */
     margin: auto;
     margin-bottom: 10px;
 }
@@ -141,7 +135,6 @@ button:focus {
 .sub_cont_imgs {
     height: 40%;
     width: 30%;
-    /* align-items: center; */
 
 }
 
@@ -157,26 +150,8 @@ button:focus {
     background-color: rgb(160, 160, 160);
     margin: auto;
 }
-/* .hotels:hover{
-    border-bottom: 3px solid rgba(11, 56, 207, 0.842);
-}
-    .flights:hover{
-    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
-}
-    .cars:hover{
-    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
-}
-    .packages:hover{
-    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
-}
-    .things_to_do:hover{
-    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
-}
-    .cruises:hover{
-    border-bottom: 3px solid  rgba(11, 56, 207, 0.842);
-} */
 .line_hover:hover{
-    border-bottom:4px solid #0d5ab9;
+    border-bottom:1px solid #004292;
 }
 .search_hotels_size{
     font-size: 30px;
@@ -195,8 +170,6 @@ button:focus {
         height: 40px;
         width: 90%;
         display: block;
-        /* margin-top: 100px; */
-        /* border: 2px solid blue; */
         margin: 2% 5%;
 
 
@@ -206,30 +179,19 @@ button:focus {
     .btn2 {
         height: 40px;
         width: 42%;
-
-
         margin-left: 5%;
-        /* margin: 2% 4% ; */
 
     }
 
     .btn3 {
         height: 40px;
         width: 43%;
-
-        /* margin-right: 3%; */
-
-
-        /* margin: 2% 4% ; */
-
     }
 
     .btn4 {
         height: 40px;
         width: 90%;
         margin: 2% 5%;
-
-
     }
 
     .sub_cont_imgs {
@@ -259,6 +221,78 @@ button:focus {
         margin: auto;
     }
 
+}
 
+
+/*---------------------- On click Card Open ----------------------*/
+
+
+
+.btncontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    -webkit-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
 
 }
+
+.btncontent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.btn1_Show,.btn4_Show {
+    display: block;
+}
+
+
+.card1_search{
+        height: 40px;
+        width: 250px;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 16px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+
+    
+    .btn4_content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 320px;
+        -webkit-box-shadow: 0 0 10px gray;
+        box-shadow: 0 0 10px gray;
+        border-radius: 10px;
+        left: auto !important;
+        right: 90px !important;
+    }
+    
+    .btn4_content a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    
+    }
+    
+    
+    .btn4_Show {
+        display: block;
+    }
+    
+
+/*----------------------  Home Page Top Search Data CSS End---------------------*/
