@@ -13,7 +13,7 @@ We devided this work in multiple parts as we were four people to work on it.
 * Prasad Birari
 * Pooran Sutar
 * Amol Talekar
-* Sreekanth K.
+* Sreekanth M
 
 
 
