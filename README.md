@@ -39,5 +39,7 @@ The pages can be seprately viewd from the above directory:
 - Register.
 - Sign up / Log In
 
-  
+## Instructions to Install and Run
+first clone the repo in your terminal
+after cloning we just click on the index.html link it will redirects to the brower, there you will see the homepage and all other pages.
 
